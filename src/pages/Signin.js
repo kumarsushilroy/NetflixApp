@@ -47,7 +47,7 @@ const Signin = () => {
           <button type='submit' className='text-white hover:opacity-75 justify-center flex  py-2 px-4 w-[180px] bg-[red] rounded-full my-6 '>Sign In</button> 
 
           <p className='text-white'>Don't have an account ? &nbsp;
-            <Link className='border border-white-500 p-2 hover:opacity-75 rounded hover:text-yellow' to='/signup'>Sign Up</Link></p>
+            <Link className='border border-white-500 sm:p-2 p-1  hover:opacity-75 rounded hover:text-yellow' to='/signup'>Sign Up</Link></p>
 
         </form>
       </div>

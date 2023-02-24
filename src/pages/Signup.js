@@ -43,7 +43,7 @@ const Signup = () => {
         <form onSubmit={handleSubmit}>
 
           <label className=' text-white text-[24px] block' htmlFor="">Email</label>
-          <input onChange={(e) => setemail(e.target.value)} placeholder='enter email' className='px-4 py-3 rounded outline-none mb-2' type='email' />
+          <input onChange={(e) => setemail(e.target.value)} placeholder='enter email' className='px-4 py-3 rounded outline-none mb-2 '  type='email' />
 
           <label className='block text-white text-[24px]' htmlFor="">Password</label>
           <input onChange={(e) => setpassword(e.target.value)} placeholder='enter password' className='px-4 py-3 rounded outline-none' type='Password' />
@@ -51,7 +51,7 @@ const Signup = () => {
           <button type='submit' className='text-white justify-center flex  py-2 px-4 w-[180px] bg-red-600 rounded-full my-6 '>Signup</button>
 
           <p className='text-white'>already have an account ? &nbsp;
-            <Link className='border border-yellow-500 p-2 hover:opacity-75 rounded hover:text-yellow' to='/'>Sign In</Link></p>
+            <Link className='border border-yellow-500 sm:p-2 p-1 hover:opacity-75 rounded hover:text-yellow' to='/'>Sign In</Link></p>
 
         </form>
       </div>
