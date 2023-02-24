@@ -38,10 +38,10 @@ const Signin = () => {
         {error && <p className='text-red-400'>{error}</p>}
         <form onSubmit={handleSubmit}>
           
-          <label className=' text-white text-[24px] block' htmlFor="">Email</label>
+          <label className=' text-white text-[20px] md:text-[24px] block' htmlFor="">Email</label>
           <input onChange={(e)=>setemail(e.target.value)} placeholder='enter email' className='px-4 py-3 rounded outline-none mb-2' type='email' />
 
-          <label className='block text-white text-[24px]' htmlFor="">Password</label>
+          <label className='block text-white md:text-[24px] text-[20px]'  htmlFor="">Password</label>
           <input onChange={(e)=>setpassword(e.target.value)} placeholder='enter password' className='px-4 py-3 rounded outline-none' type='Password' />
 
           <button type='submit' className='text-white hover:opacity-75 justify-center flex  py-2 px-4 w-[180px] bg-[red] rounded-full my-6 '>Sign In</button> 
